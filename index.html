@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   
+</head>
+<body>
+    <header class="header">
+        <a herf="#" class="logo">RAGU</a>
+
+        <nav class="navbar">
+            <a href="#home"  style= "--i:1" class="active"> Home</a>
+            <a href="#about"  style= "--i:2" > About</a>
+            <a href="#sub-title1"  style= "--i:3" > Skills</a>
+            <a href="#experience"  style= "--i:4"> Experience</a>
+            <a href="#contact"  style= "--i:5"> Contact</a>
+        </nav>  
+        
+        <div class="menu" onclick = "showNavbar()">
+           <i class='bx bx-menu'></i>
+        </div>
+    
+    <div class="side-navbar">
+        <p style="align-items: right;" onclick="closeNavbar()">
+            <i class='bx bx-window-close'  style="color: black;"></i>
+        </p>
+        <div class="side-links">
+            <a href="#home"> Home</a> <br>
+            <a href="#about"> About</a> <br>
+            <a href="#sub-title1"> Skills</a> <br>
+            <a href="#experience"> Experience</a><br>
+            <a href="#contact"> Contact</a><br>
+        </div>
+    </div>
+</header>
+    
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>RAGU</h1>
+                <h3>And I'm  <span class="text"></span></h3>
+                
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/ragu-v-2422a8236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style= "--i:8"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/Ragu-43" style= "--i:9"><i class='bx bxl-github'></i></a>
+                    <a href="mailto: 6raguraja@gmail.com"  style= "--i:6"><i class='bx bxl-gmail'></i></a>
+                    <a href="https://www.instagram.com/raguraja_44?igsh=MTBpcm5xZG1qdW01aA=="  style= "--i:7"><i class='bx bxl-instagram-alt'></i></a>
+                    
+                   
+                </div>
+               <a href="#Services" class="btn-box">More About Me</a>
+              
+            </div>
+               <span class="home-imgHover">
+                <img class="img" src="./photo1-removebg-preview.png" alt="My img" width="300px" height="400px">
+               </span>
+        </section>
+        <section class="about" id="about">
+             <div class="about-img">
+                <img src="./Photo.jpg">
+             </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>DATA ANALYST</h4>
+                <p>A highly motivated and results-driven data analyst with two years of experience in analyzing and
+                    interpreting complex data sets to drive business insights and decision-making. Proficient in data
+                    manipulation, statistical analysis, and data visualization. Strong problem solving and
+                    communication skills.
+                </p>
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+        </section>
+        <section class="service-align">
+            <div class="services" id="Services">
+                <div class="container">
+                    <h1 class="sub-title">MY <span>Services</span></h1>
+                    <div class="services-list">
+                        <div>
+                            <i class='bx bx-bar-chart-alt-2' style='color: #f9a825'></i>
+                            <h2>Data Analyst</h2>
+                            <p>I have a deep and unwavering passion for becoming a Data Analyst, driven by a strong desire to uncover meaningful insights from data and support informed decision-making. Data analysis excites me because it allows me to combine analytical thinking with technical tools to interpret trends, solve real-world problems, and tell compelling stories through data. It’s a field where logic meets impact — and that's what truly motivates me.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
+                        <div> <i class="fas fa-database" style="color:#336791"></i></i>
+                           
+                            <h2>PostgreSQL</h2>
+                            <p>With a strong command of PostgreSQL, I have cultivated deep expertise in designing, querying, and optimizing relational databases to support data-intensive applications. My experience includes creating efficient schemas, writing complex SQL queries, and ensuring data integrity across dynamic systems. This proficiency enables me to build scalable and high-performing back-end solutions that drive meaningful insights and operational efficiency.</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fab fa-python" style="color:#3776AB;"></i> 
+                            <h2>Python Developer</h2>
+                            <p>As a dedicated Python Developer, I specialize in building efficient, scalable, and maintainable back-end systems. With a strong foundation in Python's core libraries and frameworks, I enjoy solving complex problems, automating workflows, and developing APIs that power seamless digital experiences. My passion lies in writing clean code and continuously learning to deliver high-quality solutions..</p>
+                            <a href="#" class="read">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="sub-title1" id="sub-title1">My <span>Skills</span></h1>
+        <section class="align">
+               <div class="container1" id="skills">
+                    <h1 class="heading1">Technical Skills</h1>
+                    <div class="Technical-bars">
+                        <div class="bar"><i style="color: #3776AB" class='fab fa-python'></i>
+                            <div class="info">
+                                <span>Python</span>
+                            </div>
+                           
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                       </div>
+                        <div class="bar"><i style="color:#00758F" class="fas fa-database"></i></i>
+                            <div class="info">
+                                <span>MySQL</span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color:green" class="fas fa-file-excel"></i>
+                        </i></i>
+                            <div class="info">
+                                <span>Excel</span>
+                            </div>
+                             <div class="progress-line javascript">
+                                <span></span>
+                            </div>
+                        </div>
+                            
+                        <div class="bar"><i style="color: #c32ec9" class='bx bxl-html5'></i>
+                            <div class="info">
+                                <span>HTML&CSS</span>
+                            </div>
+                            <div class="progress-line java">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color:#f2c811" class="fas fa-chart-line"></i></i>
+                            <div class="info">
+                                <span>Power BI</span>
+                            </div>
+                            <div class="progress-line react">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container2">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox=" 0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="precentage">80%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox=" 0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="precentage">80%</div>
+                            <div class="text">Communication</div>
+                        </div>
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox=" 0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="precentage">90%</div>
+                            <div class="text">Problem Solving</div>
+                        </div>
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox=" 0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="precentage">90%</div>
+                            <div class="text">Team Work</div>
+                        </div>
+                    </div> 
+                </div>
+        </section>
+
+        <section id="experience">
+                    <div class="container3">
+                                <h2><span>My</span> Experience</h2>
+                    <div class="experience-entry">
+                         <h3>Data Analyst at Aggregated Intelligence</h3>
+                         <p>
+                        Working on self-storage data collection and analysis. Responsible for extracting unit sizes and prices using Python. Performing data cleaning and preprocessing to generate meaningful insights and improve storage pricing strategies.
+                        </p>
+                        <ul>
+                        <li>Data extraction from websites and databases</li>
+                        <li>Unit size and price mapping</li>
+                        <li>Python scripting for automation</li>
+                        <li>Data cleaning using Pandas & NumPy</li>
+                       </ul>
+                    </div>
+                     </div>
+                 </section>
+
+        <section>
+                 <div class="resume-section">
+                       <h1 class="ss">Resume</h1>
+                          <a href="./resume.pdf" target="_blank">
+                           <button class="bttn">View CV</button>
+                     </a>
+                   </div>
+
+               
+
+           <div class="contact" id="contact">
+                <div class="contact-l">
+                    <h1>Contact Me</h1>
+                    <p><i class='bx bxl-gmail'></i> 6raguraja@gmail.com</p>
+                    <h3><i class='bx bxs-phone-call'></i>  +91 9500301399</h3>
+                    <div>
+                </div>
+                    <div class="contact-r">
+                        <div class="form-group">
+                            <input type="text" name="Name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="Name" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Enter Your Message"></textarea>
+                        </div>
+                        <button class="lb">Submit</button>
+                    </div>
+            </div>
+           
+        </section>
+   
+    
+    <script src="./script.js"></script>
+</body>
+</html>
