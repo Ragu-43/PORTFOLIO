@@ -945,10 +945,10 @@ body{
     }
     .contact-l{
         font-size:20px;
-        margin-left: 90px;
+        margin-left: 100px;
     }
     .contact-l h1{
-        margin-left: 30px;
+        margin-left: -10px;
         font-size: 60px;
         width: 350px;
     }
@@ -978,7 +978,15 @@ body{
     padding: 10px 20px;
     font-size: 14px;
   }
-
+  experience-entry,h3{
+    text-align: center;
+   
+}
+ .resume-section{
+    display:flex;
+    flex-direction: column;
+ }
 
 }
+
 
